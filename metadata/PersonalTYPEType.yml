@@ -1,0 +1,13 @@
+PAXml\PersonalTYPEType:
+    properties:
+        person:
+            expose: true
+            access_type: public_method
+            serialized_name: person
+            accessor:
+                getter: getPerson
+                setter: setPerson
+            xml_list:
+                inline: true
+                entry_name: person
+            type: array<PAXml\PersonTYPEType>

@@ -1,0 +1,20 @@
+PAXml\ResenhetTYPEType:
+    properties:
+        dim:
+            expose: true
+            access_type: public_method
+            serialized_name: dim
+            accessor:
+                getter: getDim
+                setter: setDim
+            xml_attribute: true
+            type: int
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string

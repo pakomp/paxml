@@ -1,0 +1,169 @@
+PAXml\LonetransTYPEType:
+    properties:
+        postid:
+            expose: true
+            access_type: public_method
+            serialized_name: postid
+            accessor:
+                getter: getPostid
+                setter: setPostid
+            xml_attribute: true
+            type: int
+        anstid:
+            expose: true
+            access_type: public_method
+            serialized_name: anstid
+            accessor:
+                getter: getAnstid
+                setter: setAnstid
+            xml_attribute: true
+            type: string
+        persnr:
+            expose: true
+            access_type: public_method
+            serialized_name: persnr
+            accessor:
+                getter: getPersnr
+                setter: setPersnr
+            xml_attribute: true
+            type: string
+        lonkod:
+            expose: true
+            access_type: public_method
+            serialized_name: lonkod
+            accessor:
+                getter: getLonkod
+                setter: setLonkod
+            type: string
+        lonart:
+            expose: true
+            access_type: public_method
+            serialized_name: lonart
+            accessor:
+                getter: getLonart
+                setter: setLonart
+            type: string
+        benamning:
+            expose: true
+            access_type: public_method
+            serialized_name: benamning
+            accessor:
+                getter: getBenamning
+                setter: setBenamning
+            type: string
+        kommentar:
+            expose: true
+            access_type: public_method
+            serialized_name: kommentar
+            accessor:
+                getter: getKommentar
+                setter: setKommentar
+            type: string
+        datum:
+            expose: true
+            access_type: public_method
+            serialized_name: datum
+            accessor:
+                getter: getDatum
+                setter: setDatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        datumfrom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumfrom
+            accessor:
+                getter: getDatumfrom
+                setter: setDatumfrom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        datumtom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumtom
+            accessor:
+                getter: getDatumtom
+                setter: setDatumtom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        antal:
+            expose: true
+            access_type: public_method
+            serialized_name: antal
+            accessor:
+                getter: getAntal
+                setter: setAntal
+            type: float
+        apris:
+            expose: true
+            access_type: public_method
+            serialized_name: apris
+            accessor:
+                getter: getApris
+                setter: setApris
+            type: float
+        belopp:
+            expose: true
+            access_type: public_method
+            serialized_name: belopp
+            accessor:
+                getter: getBelopp
+                setter: setBelopp
+            type: float
+        varugrupp:
+            expose: true
+            access_type: public_method
+            serialized_name: varugrupp
+            accessor:
+                getter: getVarugrupp
+                setter: setVarugrupp
+            type: string
+        moms:
+            expose: true
+            access_type: public_method
+            serialized_name: moms
+            accessor:
+                getter: getMoms
+                setter: setMoms
+            type: float
+        samlingsid:
+            expose: true
+            access_type: public_method
+            serialized_name: samlingsid
+            accessor:
+                getter: getSamlingsid
+                setter: setSamlingsid
+            type: string
+        kontonr:
+            expose: true
+            access_type: public_method
+            serialized_name: kontonr
+            accessor:
+                getter: getKontonr
+                setter: setKontonr
+            type: string
+        kundnr:
+            expose: true
+            access_type: public_method
+            serialized_name: kundnr
+            accessor:
+                getter: getKundnr
+                setter: setKundnr
+            type: PAXml\KundnrTYPEType
+        resenheter:
+            expose: true
+            access_type: public_method
+            serialized_name: resenheter
+            accessor:
+                getter: getResenheter
+                setter: setResenheter
+            type: array<PAXml\ResenhetTYPEType>
+            xml_list:
+                inline: false
+                entry_name: resenhet
+                skip_when_empty: true
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string

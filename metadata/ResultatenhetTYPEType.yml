@@ -1,0 +1,47 @@
+PAXml\ResultatenhetTYPEType:
+    properties:
+        delete:
+            expose: true
+            access_type: public_method
+            serialized_name: delete
+            accessor:
+                getter: getDelete
+                setter: setDelete
+            xml_attribute: true
+            type: bool
+        dim:
+            expose: true
+            access_type: public_method
+            serialized_name: dim
+            accessor:
+                getter: getDim
+                setter: setDim
+            xml_attribute: true
+            type: int
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        namn:
+            expose: true
+            access_type: public_method
+            serialized_name: namn
+            accessor:
+                getter: getNamn
+                setter: setNamn
+            xml_attribute: true
+            type: string
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            xml_attribute: true
+            type: string

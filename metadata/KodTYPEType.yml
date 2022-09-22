@@ -1,0 +1,29 @@
+PAXml\KodTYPEType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        namn:
+            expose: true
+            access_type: public_method
+            serialized_name: namn
+            accessor:
+                getter: getNamn
+                setter: setNamn
+            xml_attribute: true
+            type: string
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            xml_attribute: true
+            type: string

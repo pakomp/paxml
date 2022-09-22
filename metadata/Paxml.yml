@@ -1,0 +1,123 @@
+PAXml\Paxml:
+    xml_root_name: paxml
+    properties:
+        header:
+            expose: true
+            access_type: public_method
+            serialized_name: header
+            accessor:
+                getter: getHeader
+                setter: setHeader
+            type: PAXml\HeaderTYPEType
+        dimensioner:
+            expose: true
+            access_type: public_method
+            serialized_name: dimensioner
+            accessor:
+                getter: getDimensioner
+                setter: setDimensioner
+            type: array<PAXml\DimensionTYPEType>
+            xml_list:
+                inline: false
+                entry_name: dimension
+                skip_when_empty: true
+        resultatenheter:
+            expose: true
+            access_type: public_method
+            serialized_name: resultatenheter
+            accessor:
+                getter: getResultatenheter
+                setter: setResultatenheter
+            type: array<PAXml\ResultatenhetTYPEType>
+            xml_list:
+                inline: false
+                entry_name: resultatenhet
+                skip_when_empty: true
+        koder:
+            expose: true
+            access_type: public_method
+            serialized_name: koder
+            accessor:
+                getter: getKoder
+                setter: setKoder
+            type: array<PAXml\KodTYPEType>
+            xml_list:
+                inline: false
+                entry_name: kod
+                skip_when_empty: true
+        resetransaktioner:
+            expose: true
+            access_type: public_method
+            serialized_name: resetransaktioner
+            accessor:
+                getter: getResetransaktioner
+                setter: setResetransaktioner
+            type: PAXml\ResetransaktionerTYPEType
+        tidtransaktioner:
+            expose: true
+            access_type: public_method
+            serialized_name: tidtransaktioner
+            accessor:
+                getter: getTidtransaktioner
+                setter: setTidtransaktioner
+            type: PAXml\TidtransaktionerTYPEType
+        lonetransaktioner:
+            expose: true
+            access_type: public_method
+            serialized_name: lonetransaktioner
+            accessor:
+                getter: getLonetransaktioner
+                setter: setLonetransaktioner
+            type: array<PAXml\LonetransTYPEType>
+            xml_list:
+                inline: false
+                entry_name: lonetrans
+                skip_when_empty: true
+        schematransaktioner:
+            expose: true
+            access_type: public_method
+            serialized_name: schematransaktioner
+            accessor:
+                getter: getSchematransaktioner
+                setter: setSchematransaktioner
+            type: array<PAXml\SchemaTYPEType>
+            xml_list:
+                inline: false
+                entry_name: schema
+                skip_when_empty: true
+        personal:
+            expose: true
+            access_type: public_method
+            serialized_name: personal
+            accessor:
+                getter: getPersonal
+                setter: setPersonal
+            type: array<PAXml\PersonTYPEType>
+            xml_list:
+                inline: false
+                entry_name: person
+                skip_when_empty: true
+        loneutbetalning:
+            expose: true
+            access_type: public_method
+            serialized_name: loneutbetalning
+            accessor:
+                getter: getLoneutbetalning
+                setter: setLoneutbetalning
+            type: array<PAXml\LonebeskedTYPEType>
+            xml_list:
+                inline: false
+                entry_name: lonebesked
+                skip_when_empty: true
+        saldon:
+            expose: true
+            access_type: public_method
+            serialized_name: saldon
+            accessor:
+                getter: getSaldon
+                setter: setSaldon
+            type: array<PAXml\SaldoTYPEType>
+            xml_list:
+                inline: false
+                entry_name: saldo
+                skip_when_empty: true

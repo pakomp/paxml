@@ -1,0 +1,19 @@
+PAXml\IntAttribDatumBeloppType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+        datum:
+            expose: true
+            access_type: public_method
+            serialized_name: datum
+            accessor:
+                getter: getDatum
+                setter: setDatum
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

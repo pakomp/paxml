@@ -1,0 +1,13 @@
+PAXml\DeltagarlistaTYPEType:
+    properties:
+        deltagare:
+            expose: true
+            access_type: public_method
+            serialized_name: deltagare
+            accessor:
+                getter: getDeltagare
+                setter: setDeltagare
+            xml_list:
+                inline: true
+                entry_name: deltagare
+            type: array<PAXml\DeltagareTYPEType>

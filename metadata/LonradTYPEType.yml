@@ -1,0 +1,215 @@
+PAXml\LonradTYPEType:
+    properties:
+        radnr:
+            expose: true
+            access_type: public_method
+            serialized_name: radnr
+            accessor:
+                getter: getRadnr
+                setter: setRadnr
+            xml_attribute: true
+            type: int
+        lonart:
+            expose: true
+            access_type: public_method
+            serialized_name: lonart
+            accessor:
+                getter: getLonart
+                setter: setLonart
+            type: string
+        font:
+            expose: true
+            access_type: public_method
+            serialized_name: font
+            accessor:
+                getter: getFont
+                setter: setFont
+            type: string
+        benamning:
+            expose: true
+            access_type: public_method
+            serialized_name: benamning
+            accessor:
+                getter: getBenamning
+                setter: setBenamning
+            type: string
+        kommentar:
+            expose: true
+            access_type: public_method
+            serialized_name: kommentar
+            accessor:
+                getter: getKommentar
+                setter: setKommentar
+            type: string
+        datumfrom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumfrom
+            accessor:
+                getter: getDatumfrom
+                setter: setDatumfrom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        datumtom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumtom
+            accessor:
+                getter: getDatumtom
+                setter: setDatumtom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        timmar:
+            expose: true
+            access_type: public_method
+            serialized_name: timmar
+            accessor:
+                getter: getTimmar
+                setter: setTimmar
+            type: float
+        arbetsdagar:
+            expose: true
+            access_type: public_method
+            serialized_name: arbetsdagar
+            accessor:
+                getter: getArbetsdagar
+                setter: setArbetsdagar
+            type: float
+        dagar:
+            expose: true
+            access_type: public_method
+            serialized_name: dagar
+            accessor:
+                getter: getDagar
+                setter: setDagar
+            type: float
+        enhet:
+            expose: true
+            access_type: public_method
+            serialized_name: enhet
+            accessor:
+                getter: getEnhet
+                setter: setEnhet
+            type: string
+        antal:
+            expose: true
+            access_type: public_method
+            serialized_name: antal
+            accessor:
+                getter: getAntal
+                setter: setAntal
+            type: float
+        apris:
+            expose: true
+            access_type: public_method
+            serialized_name: apris
+            accessor:
+                getter: getApris
+                setter: setApris
+            type: float
+        belopp:
+            expose: true
+            access_type: public_method
+            serialized_name: belopp
+            accessor:
+                getter: getBelopp
+                setter: setBelopp
+            type: float
+        lonetyp:
+            expose: true
+            access_type: public_method
+            serialized_name: lonetyp
+            accessor:
+                getter: getLonetyp
+                setter: setLonetyp
+            type: string
+        skattetyp:
+            expose: true
+            access_type: public_method
+            serialized_name: skattetyp
+            accessor:
+                getter: getSkattetyp
+                setter: setSkattetyp
+            type: string
+        skattprocent:
+            expose: true
+            access_type: public_method
+            serialized_name: skattprocent
+            accessor:
+                getter: getSkattprocent
+                setter: setSkattprocent
+            type: float
+        avgifttyp:
+            expose: true
+            access_type: public_method
+            serialized_name: avgifttyp
+            accessor:
+                getter: getAvgifttyp
+                setter: setAvgifttyp
+            type: string
+        avgiftprocent:
+            expose: true
+            access_type: public_method
+            serialized_name: avgiftprocent
+            accessor:
+                getter: getAvgiftprocent
+                setter: setAvgiftprocent
+            type: float
+        regional:
+            expose: true
+            access_type: public_method
+            serialized_name: regional
+            accessor:
+                getter: getRegional
+                setter: setRegional
+            type: bool
+        kontonr:
+            expose: true
+            access_type: public_method
+            serialized_name: kontonr
+            accessor:
+                getter: getKontonr
+                setter: setKontonr
+            type: string
+        kundnr:
+            expose: true
+            access_type: public_method
+            serialized_name: kundnr
+            accessor:
+                getter: getKundnr
+                setter: setKundnr
+            type: PAXml\KundnrTYPEType
+        resenheter:
+            expose: true
+            access_type: public_method
+            serialized_name: resenheter
+            accessor:
+                getter: getResenheter
+                setter: setResenheter
+            type: array<PAXml\ResenhetTYPEType>
+            xml_list:
+                inline: false
+                entry_name: resenhet
+                skip_when_empty: true
+        statistikkod:
+            expose: true
+            access_type: public_method
+            serialized_name: statistikkod
+            accessor:
+                getter: getStatistikkod
+                setter: setStatistikkod
+            type: string
+        kontrolluppgift:
+            expose: true
+            access_type: public_method
+            serialized_name: kontrolluppgift
+            accessor:
+                getter: getKontrolluppgift
+                setter: setKontrolluppgift
+            type: string
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string

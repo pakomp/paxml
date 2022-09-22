@@ -1,0 +1,13 @@
+PAXml\LoneraderTYPEType:
+    properties:
+        lonrad:
+            expose: true
+            access_type: public_method
+            serialized_name: lonrad
+            accessor:
+                getter: getLonrad
+                setter: setLonrad
+            xml_list:
+                inline: true
+                entry_name: lonrad
+            type: array<PAXml\LonradTYPEType>

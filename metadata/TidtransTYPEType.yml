@@ -1,0 +1,153 @@
+PAXml\TidtransTYPEType:
+    properties:
+        postid:
+            expose: true
+            access_type: public_method
+            serialized_name: postid
+            accessor:
+                getter: getPostid
+                setter: setPostid
+            xml_attribute: true
+            type: int
+        anstid:
+            expose: true
+            access_type: public_method
+            serialized_name: anstid
+            accessor:
+                getter: getAnstid
+                setter: setAnstid
+            xml_attribute: true
+            type: string
+        persnr:
+            expose: true
+            access_type: public_method
+            serialized_name: persnr
+            accessor:
+                getter: getPersnr
+                setter: setPersnr
+            xml_attribute: true
+            type: string
+        tidkod:
+            expose: true
+            access_type: public_method
+            serialized_name: tidkod
+            accessor:
+                getter: getTidkod
+                setter: setTidkod
+            type: string
+        datum:
+            expose: true
+            access_type: public_method
+            serialized_name: datum
+            accessor:
+                getter: getDatum
+                setter: setDatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        datumfrom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumfrom
+            accessor:
+                getter: getDatumfrom
+                setter: setDatumfrom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        datumtom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumtom
+            accessor:
+                getter: getDatumtom
+                setter: setDatumtom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        starttid:
+            expose: true
+            access_type: public_method
+            serialized_name: starttid
+            accessor:
+                getter: getStarttid
+                setter: setStarttid
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        sluttid:
+            expose: true
+            access_type: public_method
+            serialized_name: sluttid
+            accessor:
+                getter: getSluttid
+                setter: setSluttid
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        timmar:
+            expose: true
+            access_type: public_method
+            serialized_name: timmar
+            accessor:
+                getter: getTimmar
+                setter: setTimmar
+            type: float
+        omfattning:
+            expose: true
+            access_type: public_method
+            serialized_name: omfattning
+            accessor:
+                getter: getOmfattning
+                setter: setOmfattning
+            type: float
+        barn:
+            expose: true
+            access_type: public_method
+            serialized_name: barn
+            accessor:
+                getter: getBarn
+                setter: setBarn
+            type: string
+        samlingsid:
+            expose: true
+            access_type: public_method
+            serialized_name: samlingsid
+            accessor:
+                getter: getSamlingsid
+                setter: setSamlingsid
+            type: string
+        semgrund:
+            expose: true
+            access_type: public_method
+            serialized_name: semgrund
+            accessor:
+                getter: getSemgrund
+                setter: setSemgrund
+            type: bool
+        kontonr:
+            expose: true
+            access_type: public_method
+            serialized_name: kontonr
+            accessor:
+                getter: getKontonr
+                setter: setKontonr
+            type: string
+        kundnr:
+            expose: true
+            access_type: public_method
+            serialized_name: kundnr
+            accessor:
+                getter: getKundnr
+                setter: setKundnr
+            type: PAXml\KundnrTYPEType
+        resenheter:
+            expose: true
+            access_type: public_method
+            serialized_name: resenheter
+            accessor:
+                getter: getResenheter
+                setter: setResenheter
+            type: array<PAXml\ResenhetTYPEType>
+            xml_list:
+                inline: false
+                entry_name: resenhet
+                skip_when_empty: true
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string

@@ -1,0 +1,20 @@
+PAXml\DeltagareTYPEType:
+    properties:
+        foretag:
+            expose: true
+            access_type: public_method
+            serialized_name: foretag
+            accessor:
+                getter: getForetag
+                setter: setForetag
+            xml_attribute: true
+            type: string
+        namn:
+            expose: true
+            access_type: public_method
+            serialized_name: namn
+            accessor:
+                getter: getNamn
+                setter: setNamn
+            xml_attribute: true
+            type: string

@@ -1,0 +1,35 @@
+PAXml\TidtransaktionerTYPEType:
+    properties:
+        klar:
+            expose: true
+            access_type: public_method
+            serialized_name: klar
+            accessor:
+                getter: getKlar
+                setter: setKlar
+            xml_list:
+                inline: true
+                entry_name: klar
+            type: array<PAXml\HandelseTYPEType>
+        attesterat:
+            expose: true
+            access_type: public_method
+            serialized_name: attesterat
+            accessor:
+                getter: getAttesterat
+                setter: setAttesterat
+            xml_list:
+                inline: true
+                entry_name: attesterat
+            type: array<PAXml\HandelseTYPEType>
+        tidtrans:
+            expose: true
+            access_type: public_method
+            serialized_name: tidtrans
+            accessor:
+                getter: getTidtrans
+                setter: setTidtrans
+            xml_list:
+                inline: true
+                entry_name: tidtrans
+            type: array<PAXml\TidtransTYPEType>

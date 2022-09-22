@@ -1,0 +1,13 @@
+PAXml\FritextlistaTYPEType:
+    properties:
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            accessor:
+                getter: getText
+                setter: setText
+            xml_list:
+                inline: true
+                entry_name: text
+            type: array<PAXml\FritextTYPEType>

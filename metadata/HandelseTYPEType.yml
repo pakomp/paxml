@@ -1,0 +1,56 @@
+PAXml\HandelseTYPEType:
+    properties:
+        postid:
+            expose: true
+            access_type: public_method
+            serialized_name: postid
+            accessor:
+                getter: getPostid
+                setter: setPostid
+            xml_attribute: true
+            type: int
+        anstid:
+            expose: true
+            access_type: public_method
+            serialized_name: anstid
+            accessor:
+                getter: getAnstid
+                setter: setAnstid
+            xml_attribute: true
+            type: string
+        persnr:
+            expose: true
+            access_type: public_method
+            serialized_name: persnr
+            accessor:
+                getter: getPersnr
+                setter: setPersnr
+            xml_attribute: true
+            type: string
+        datum:
+            expose: true
+            access_type: public_method
+            serialized_name: datum
+            accessor:
+                getter: getDatum
+                setter: setDatum
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        datumfrom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumfrom
+            accessor:
+                getter: getDatumfrom
+                setter: setDatumfrom
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        datumtom:
+            expose: true
+            access_type: public_method
+            serialized_name: datumtom
+            accessor:
+                getter: getDatumtom
+                setter: setDatumtom
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date

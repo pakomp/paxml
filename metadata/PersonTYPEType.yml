@@ -1,0 +1,329 @@
+PAXml\PersonTYPEType:
+    properties:
+        anstid:
+            expose: true
+            access_type: public_method
+            serialized_name: anstid
+            accessor:
+                getter: getAnstid
+                setter: setAnstid
+            xml_attribute: true
+            type: string
+        persnr:
+            expose: true
+            access_type: public_method
+            serialized_name: persnr
+            accessor:
+                getter: getPersnr
+                setter: setPersnr
+            xml_attribute: true
+            type: string
+        delete:
+            expose: true
+            access_type: public_method
+            serialized_name: delete
+            accessor:
+                getter: getDelete
+                setter: setDelete
+            xml_attribute: true
+            type: bool
+        fornamn:
+            expose: true
+            access_type: public_method
+            serialized_name: fornamn
+            accessor:
+                getter: getFornamn
+                setter: setFornamn
+            type: string
+        efternamn:
+            expose: true
+            access_type: public_method
+            serialized_name: efternamn
+            accessor:
+                getter: getEfternamn
+                setter: setEfternamn
+            type: string
+        extraadress:
+            expose: true
+            access_type: public_method
+            serialized_name: extraadress
+            accessor:
+                getter: getExtraadress
+                setter: setExtraadress
+            type: string
+        postadress:
+            expose: true
+            access_type: public_method
+            serialized_name: postadress
+            accessor:
+                getter: getPostadress
+                setter: setPostadress
+            type: string
+        postnr:
+            expose: true
+            access_type: public_method
+            serialized_name: postnr
+            accessor:
+                getter: getPostnr
+                setter: setPostnr
+            type: string
+        ort:
+            expose: true
+            access_type: public_method
+            serialized_name: ort
+            accessor:
+                getter: getOrt
+                setter: setOrt
+            type: string
+        land:
+            expose: true
+            access_type: public_method
+            serialized_name: land
+            accessor:
+                getter: getLand
+                setter: setLand
+            type: string
+        mobiltelefon:
+            expose: true
+            access_type: public_method
+            serialized_name: mobiltelefon
+            accessor:
+                getter: getMobiltelefon
+                setter: setMobiltelefon
+            type: string
+        hemtelefon:
+            expose: true
+            access_type: public_method
+            serialized_name: hemtelefon
+            accessor:
+                getter: getHemtelefon
+                setter: setHemtelefon
+            type: string
+        arbetstelefon:
+            expose: true
+            access_type: public_method
+            serialized_name: arbetstelefon
+            accessor:
+                getter: getArbetstelefon
+                setter: setArbetstelefon
+            type: string
+        epostarb:
+            expose: true
+            access_type: public_method
+            serialized_name: epostarb
+            accessor:
+                getter: getEpostarb
+                setter: setEpostarb
+            type: string
+        eposthem:
+            expose: true
+            access_type: public_method
+            serialized_name: eposthem
+            accessor:
+                getter: getEposthem
+                setter: setEposthem
+            type: string
+        personaltyp:
+            expose: true
+            access_type: public_method
+            serialized_name: personaltyp
+            accessor:
+                getter: getPersonaltyp
+                setter: setPersonaltyp
+            type: string
+        kategori:
+            expose: true
+            access_type: public_method
+            serialized_name: kategori
+            accessor:
+                getter: getKategori
+                setter: setKategori
+            type: string
+        befattning:
+            expose: true
+            access_type: public_method
+            serialized_name: befattning
+            accessor:
+                getter: getBefattning
+                setter: setBefattning
+            type: string
+        befattningskod:
+            expose: true
+            access_type: public_method
+            serialized_name: befattningskod
+            accessor:
+                getter: getBefattningskod
+                setter: setBefattningskod
+            type: string
+        anstform:
+            expose: true
+            access_type: public_method
+            serialized_name: anstform
+            accessor:
+                getter: getAnstform
+                setter: setAnstform
+            type: string
+        semesteravtal:
+            expose: true
+            access_type: public_method
+            serialized_name: semesteravtal
+            accessor:
+                getter: getSemesteravtal
+                setter: setSemesteravtal
+            type: string
+        bankclearing:
+            expose: true
+            access_type: public_method
+            serialized_name: bankclearing
+            accessor:
+                getter: getBankclearing
+                setter: setBankclearing
+            type: string
+        bankkonto:
+            expose: true
+            access_type: public_method
+            serialized_name: bankkonto
+            accessor:
+                getter: getBankkonto
+                setter: setBankkonto
+            type: string
+        anstdatum:
+            expose: true
+            access_type: public_method
+            serialized_name: anstdatum
+            accessor:
+                getter: getAnstdatum
+                setter: setAnstdatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        avgdatum:
+            expose: true
+            access_type: public_method
+            serialized_name: avgdatum
+            accessor:
+                getter: getAvgdatum
+                setter: setAvgdatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        lonform:
+            expose: true
+            access_type: public_method
+            serialized_name: lonform
+            accessor:
+                getter: getLonform
+                setter: setLonform
+            type: string
+        innevarande:
+            expose: true
+            access_type: public_method
+            serialized_name: innevarande
+            accessor:
+                getter: getInnevarande
+                setter: setInnevarande
+            type: bool
+        timlon:
+            expose: true
+            access_type: public_method
+            serialized_name: timlon
+            accessor:
+                getter: getTimlon
+                setter: setTimlon
+            type: PAXml\IntAttribDatumBeloppType
+        manlon:
+            expose: true
+            access_type: public_method
+            serialized_name: manlon
+            accessor:
+                getter: getManlon
+                setter: setManlon
+            type: PAXml\IntAttribDatumBeloppType
+        personbelopp:
+            expose: true
+            access_type: public_method
+            serialized_name: personbelopp
+            accessor:
+                getter: getPersonbelopp
+                setter: setPersonbelopp
+            type: array<PAXml\FribeloppTYPEType>
+            xml_list:
+                inline: false
+                entry_name: belopp
+                skip_when_empty: true
+        persontexter:
+            expose: true
+            access_type: public_method
+            serialized_name: persontexter
+            accessor:
+                getter: getPersontexter
+                setter: setPersontexter
+            type: array<PAXml\FritextTYPEType>
+            xml_list:
+                inline: false
+                entry_name: text
+                skip_when_empty: true
+        sysgrad:
+            expose: true
+            access_type: public_method
+            serialized_name: sysgrad
+            accessor:
+                getter: getSysgrad
+                setter: setSysgrad
+            type: PAXml\IntAttribDatumBeloppType
+        semesterdagar:
+            expose: true
+            access_type: public_method
+            serialized_name: semesterdagar
+            accessor:
+                getter: getSemesterdagar
+                setter: setSemesterdagar
+            type: float
+        skattetabell:
+            expose: true
+            access_type: public_method
+            serialized_name: skattetabell
+            accessor:
+                getter: getSkattetabell
+                setter: setSkattetabell
+            type: float
+        skattekolumn:
+            expose: true
+            access_type: public_method
+            serialized_name: skattekolumn
+            accessor:
+                getter: getSkattekolumn
+                setter: setSkattekolumn
+            type: int
+        skattejamkning:
+            expose: true
+            access_type: public_method
+            serialized_name: skattejamkning
+            accessor:
+                getter: getSkattejamkning
+                setter: setSkattejamkning
+            type: PAXml\JamkningTYPEType
+        loneutmatning:
+            expose: true
+            access_type: public_method
+            serialized_name: loneutmatning
+            accessor:
+                getter: getLoneutmatning
+                setter: setLoneutmatning
+            type: PAXml\UtmatningTYPEType
+        resenheter:
+            expose: true
+            access_type: public_method
+            serialized_name: resenheter
+            accessor:
+                getter: getResenheter
+                setter: setResenheter
+            type: array<PAXml\ResenhetTYPEType>
+            xml_list:
+                inline: false
+                entry_name: resenhet
+                skip_when_empty: true
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string

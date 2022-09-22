@@ -1,0 +1,38 @@
+PAXml\DagTYPEType:
+    properties:
+        datum:
+            expose: true
+            access_type: public_method
+            serialized_name: datum
+            accessor:
+                getter: getDatum
+                setter: setDatum
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        starttid:
+            expose: true
+            access_type: public_method
+            serialized_name: starttid
+            accessor:
+                getter: getStarttid
+                setter: setStarttid
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        sluttid:
+            expose: true
+            access_type: public_method
+            serialized_name: sluttid
+            accessor:
+                getter: getSluttid
+                setter: setSluttid
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        timmar:
+            expose: true
+            access_type: public_method
+            serialized_name: timmar
+            accessor:
+                getter: getTimmar
+                setter: setTimmar
+            xml_attribute: true
+            type: float

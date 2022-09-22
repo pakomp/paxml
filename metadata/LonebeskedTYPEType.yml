@@ -1,0 +1,380 @@
+PAXml\LonebeskedTYPEType:
+    properties:
+        anstid:
+            expose: true
+            access_type: public_method
+            serialized_name: anstid
+            accessor:
+                getter: getAnstid
+                setter: setAnstid
+            xml_attribute: true
+            type: string
+        persnr:
+            expose: true
+            access_type: public_method
+            serialized_name: persnr
+            accessor:
+                getter: getPersnr
+                setter: setPersnr
+            xml_attribute: true
+            type: string
+        periodid:
+            expose: true
+            access_type: public_method
+            serialized_name: periodid
+            accessor:
+                getter: getPeriodid
+                setter: setPeriodid
+            type: string
+        periodtext:
+            expose: true
+            access_type: public_method
+            serialized_name: periodtext
+            accessor:
+                getter: getPeriodtext
+                setter: setPeriodtext
+            type: string
+        betaldatum:
+            expose: true
+            access_type: public_method
+            serialized_name: betaldatum
+            accessor:
+                getter: getBetaldatum
+                setter: setBetaldatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        fornamn:
+            expose: true
+            access_type: public_method
+            serialized_name: fornamn
+            accessor:
+                getter: getFornamn
+                setter: setFornamn
+            type: string
+        efternamn:
+            expose: true
+            access_type: public_method
+            serialized_name: efternamn
+            accessor:
+                getter: getEfternamn
+                setter: setEfternamn
+            type: string
+        extraadress:
+            expose: true
+            access_type: public_method
+            serialized_name: extraadress
+            accessor:
+                getter: getExtraadress
+                setter: setExtraadress
+            type: string
+        postadress:
+            expose: true
+            access_type: public_method
+            serialized_name: postadress
+            accessor:
+                getter: getPostadress
+                setter: setPostadress
+            type: string
+        postnr:
+            expose: true
+            access_type: public_method
+            serialized_name: postnr
+            accessor:
+                getter: getPostnr
+                setter: setPostnr
+            type: string
+        ort:
+            expose: true
+            access_type: public_method
+            serialized_name: ort
+            accessor:
+                getter: getOrt
+                setter: setOrt
+            type: string
+        land:
+            expose: true
+            access_type: public_method
+            serialized_name: land
+            accessor:
+                getter: getLand
+                setter: setLand
+            type: string
+        clearingnr:
+            expose: true
+            access_type: public_method
+            serialized_name: clearingnr
+            accessor:
+                getter: getClearingnr
+                setter: setClearingnr
+            type: string
+        bankkonto:
+            expose: true
+            access_type: public_method
+            serialized_name: bankkonto
+            accessor:
+                getter: getBankkonto
+                setter: setBankkonto
+            type: string
+        skattprocent:
+            expose: true
+            access_type: public_method
+            serialized_name: skattprocent
+            accessor:
+                getter: getSkattprocent
+                setter: setSkattprocent
+            type: float
+        skattetabell:
+            expose: true
+            access_type: public_method
+            serialized_name: skattetabell
+            accessor:
+                getter: getSkattetabell
+                setter: setSkattetabell
+            type: int
+        jamkningprc:
+            expose: true
+            access_type: public_method
+            serialized_name: jamkningprc
+            accessor:
+                getter: getJamkningprc
+                setter: setJamkningprc
+            type: float
+        jamkningbel:
+            expose: true
+            access_type: public_method
+            serialized_name: jamkningbel
+            accessor:
+                getter: getJamkningbel
+                setter: setJamkningbel
+            type: float
+        skattekolumn:
+            expose: true
+            access_type: public_method
+            serialized_name: skattekolumn
+            accessor:
+                getter: getSkattekolumn
+                setter: setSkattekolumn
+            type: int
+        tabellskatt:
+            expose: true
+            access_type: public_method
+            serialized_name: tabellskatt
+            accessor:
+                getter: getTabellskatt
+                setter: setTabellskatt
+            type: float
+        engangsskatt:
+            expose: true
+            access_type: public_method
+            serialized_name: engangsskatt
+            accessor:
+                getter: getEngangsskatt
+                setter: setEngangsskatt
+            type: float
+        kapitalskatt:
+            expose: true
+            access_type: public_method
+            serialized_name: kapitalskatt
+            accessor:
+                getter: getKapitalskatt
+                setter: setKapitalskatt
+            type: float
+        extraskatt:
+            expose: true
+            access_type: public_method
+            serialized_name: extraskatt
+            accessor:
+                getter: getExtraskatt
+                setter: setExtraskatt
+            type: float
+        utbetalt:
+            expose: true
+            access_type: public_method
+            serialized_name: utbetalt
+            accessor:
+                getter: getUtbetalt
+                setter: setUtbetalt
+            type: float
+        arbavgiftprc:
+            expose: true
+            access_type: public_method
+            serialized_name: arbavgiftprc
+            accessor:
+                getter: getArbavgiftprc
+                setter: setArbavgiftprc
+            type: float
+        arbavgiftbel:
+            expose: true
+            access_type: public_method
+            serialized_name: arbavgiftbel
+            accessor:
+                getter: getArbavgiftbel
+                setter: setArbavgiftbel
+            type: float
+        lonerader:
+            expose: true
+            access_type: public_method
+            serialized_name: lonerader
+            accessor:
+                getter: getLonerader
+                setter: setLonerader
+            type: array<PAXml\LonradTYPEType>
+            xml_list:
+                inline: false
+                entry_name: lonrad
+                skip_when_empty: true
+        ackbruttolon:
+            expose: true
+            access_type: public_method
+            serialized_name: ackbruttolon
+            accessor:
+                getter: getAckbruttolon
+                setter: setAckbruttolon
+            type: float
+        ackprelskatt:
+            expose: true
+            access_type: public_method
+            serialized_name: ackprelskatt
+            accessor:
+                getter: getAckprelskatt
+                setter: setAckprelskatt
+            type: float
+        acknettolon:
+            expose: true
+            access_type: public_method
+            serialized_name: acknettolon
+            accessor:
+                getter: getAcknettolon
+                setter: setAcknettolon
+            type: float
+        flexsaldo:
+            expose: true
+            access_type: public_method
+            serialized_name: flexsaldo
+            accessor:
+                getter: getFlexsaldo
+                setter: setFlexsaldo
+            type: float
+        kompsaldo:
+            expose: true
+            access_type: public_method
+            serialized_name: kompsaldo
+            accessor:
+                getter: getKompsaldo
+                setter: setKompsaldo
+            type: float
+        tidbanktim:
+            expose: true
+            access_type: public_method
+            serialized_name: tidbanktim
+            accessor:
+                getter: getTidbanktim
+                setter: setTidbanktim
+            type: float
+        tidbankbel:
+            expose: true
+            access_type: public_method
+            serialized_name: tidbankbel
+            accessor:
+                getter: getTidbankbel
+                setter: setTidbankbel
+            type: float
+        sembettot:
+            expose: true
+            access_type: public_method
+            serialized_name: sembettot
+            accessor:
+                getter: getSembettot
+                setter: setSembettot
+            type: float
+        sembetutb:
+            expose: true
+            access_type: public_method
+            serialized_name: sembetutb
+            accessor:
+                getter: getSembetutb
+                setter: setSembetutb
+            type: float
+        semobetot:
+            expose: true
+            access_type: public_method
+            serialized_name: semobetot
+            accessor:
+                getter: getSemobetot
+                setter: setSemobetot
+            type: float
+        semobeutb:
+            expose: true
+            access_type: public_method
+            serialized_name: semobeutb
+            accessor:
+                getter: getSemobeutb
+                setter: setSemobeutb
+            type: float
+        semfortot:
+            expose: true
+            access_type: public_method
+            serialized_name: semfortot
+            accessor:
+                getter: getSemfortot
+                setter: setSemfortot
+            type: float
+        semforutb:
+            expose: true
+            access_type: public_method
+            serialized_name: semforutb
+            accessor:
+                getter: getSemforutb
+                setter: setSemforutb
+            type: float
+        semspatot:
+            expose: true
+            access_type: public_method
+            serialized_name: semspatot
+            accessor:
+                getter: getSemspatot
+                setter: setSemspatot
+            type: float
+        semspautb:
+            expose: true
+            access_type: public_method
+            serialized_name: semspautb
+            accessor:
+                getter: getSemspautb
+                setter: setSemspautb
+            type: float
+        semlontot:
+            expose: true
+            access_type: public_method
+            serialized_name: semlontot
+            accessor:
+                getter: getSemlontot
+                setter: setSemlontot
+            type: float
+        semlonutb:
+            expose: true
+            access_type: public_method
+            serialized_name: semlonutb
+            accessor:
+                getter: getSemlonutb
+                setter: setSemlonutb
+            type: float
+        kontering:
+            expose: true
+            access_type: public_method
+            serialized_name: kontering
+            accessor:
+                getter: getKontering
+                setter: setKontering
+            type: array<PAXml\TransaktionTYPEType>
+            xml_list:
+                inline: false
+                entry_name: transaktion
+                skip_when_empty: true
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string

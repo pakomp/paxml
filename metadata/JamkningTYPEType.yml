@@ -1,0 +1,29 @@
+PAXml\JamkningTYPEType:
+    properties:
+        procent:
+            expose: true
+            access_type: public_method
+            serialized_name: procent
+            accessor:
+                getter: getProcent
+                setter: setProcent
+            xml_attribute: true
+            type: int
+        belopp:
+            expose: true
+            access_type: public_method
+            serialized_name: belopp
+            accessor:
+                getter: getBelopp
+                setter: setBelopp
+            xml_attribute: true
+            type: float
+        maxbelopp:
+            expose: true
+            access_type: public_method
+            serialized_name: maxbelopp
+            accessor:
+                getter: getMaxbelopp
+                setter: setMaxbelopp
+            xml_attribute: true
+            type: float

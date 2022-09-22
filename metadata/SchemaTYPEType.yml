@@ -1,0 +1,31 @@
+PAXml\SchemaTYPEType:
+    properties:
+        anstid:
+            expose: true
+            access_type: public_method
+            serialized_name: anstid
+            accessor:
+                getter: getAnstid
+                setter: setAnstid
+            xml_attribute: true
+            type: string
+        persnr:
+            expose: true
+            access_type: public_method
+            serialized_name: persnr
+            accessor:
+                getter: getPersnr
+                setter: setPersnr
+            xml_attribute: true
+            type: string
+        dag:
+            expose: true
+            access_type: public_method
+            serialized_name: dag
+            accessor:
+                getter: getDag
+                setter: setDag
+            xml_list:
+                inline: true
+                entry_name: dag
+            type: array<PAXml\DagTYPEType>

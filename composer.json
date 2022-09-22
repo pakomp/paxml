@@ -1,0 +1,22 @@
+{
+    "name": "msn/pa-xml",
+    "description": "PAXml",
+    "keywords":["paxml","xml","payroll"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "jms/serializer": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Willy Vanlid",
+            "email": "utveckling@pakompetens.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PAXml\\": "src"
+        }
+    }
+}

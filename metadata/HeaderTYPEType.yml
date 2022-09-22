@@ -1,0 +1,178 @@
+PAXml\HeaderTYPEType:
+    properties:
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: string
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: string
+        datum:
+            expose: true
+            access_type: public_method
+            serialized_name: datum
+            accessor:
+                getter: getDatum
+                setter: setDatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        nyexport:
+            expose: true
+            access_type: public_method
+            serialized_name: nyexport
+            accessor:
+                getter: getNyexport
+                setter: setNyexport
+            type: PAXml\NyexportTYPEType
+        foretagid:
+            expose: true
+            access_type: public_method
+            serialized_name: foretagid
+            accessor:
+                getter: getForetagid
+                setter: setForetagid
+            type: string
+        foretagorgnr:
+            expose: true
+            access_type: public_method
+            serialized_name: foretagorgnr
+            accessor:
+                getter: getForetagorgnr
+                setter: setForetagorgnr
+            type: string
+        foretagnamn:
+            expose: true
+            access_type: public_method
+            serialized_name: foretagnamn
+            accessor:
+                getter: getForetagnamn
+                setter: setForetagnamn
+            type: string
+        extraadress:
+            expose: true
+            access_type: public_method
+            serialized_name: extraadress
+            accessor:
+                getter: getExtraadress
+                setter: setExtraadress
+            type: string
+        postadress:
+            expose: true
+            access_type: public_method
+            serialized_name: postadress
+            accessor:
+                getter: getPostadress
+                setter: setPostadress
+            type: string
+        postnr:
+            expose: true
+            access_type: public_method
+            serialized_name: postnr
+            accessor:
+                getter: getPostnr
+                setter: setPostnr
+            type: string
+        ort:
+            expose: true
+            access_type: public_method
+            serialized_name: ort
+            accessor:
+                getter: getOrt
+                setter: setOrt
+            type: string
+        land:
+            expose: true
+            access_type: public_method
+            serialized_name: land
+            accessor:
+                getter: getLand
+                setter: setLand
+            type: string
+        epost:
+            expose: true
+            access_type: public_method
+            serialized_name: epost
+            accessor:
+                getter: getEpost
+                setter: setEpost
+            type: string
+        hemsida:
+            expose: true
+            access_type: public_method
+            serialized_name: hemsida
+            accessor:
+                getter: getHemsida
+                setter: setHemsida
+            type: string
+        kontaktperson:
+            expose: true
+            access_type: public_method
+            serialized_name: kontaktperson
+            accessor:
+                getter: getKontaktperson
+                setter: setKontaktperson
+            type: string
+        personalansvarig:
+            expose: true
+            access_type: public_method
+            serialized_name: personalansvarig
+            accessor:
+                getter: getPersonalansvarig
+                setter: setPersonalansvarig
+            type: string
+        attestansvarig:
+            expose: true
+            access_type: public_method
+            serialized_name: attestansvarig
+            accessor:
+                getter: getAttestansvarig
+                setter: setAttestansvarig
+            type: string
+        telefon:
+            expose: true
+            access_type: public_method
+            serialized_name: telefon
+            accessor:
+                getter: getTelefon
+                setter: setTelefon
+            type: string
+        telefax:
+            expose: true
+            access_type: public_method
+            serialized_name: telefax
+            accessor:
+                getter: getTelefax
+                setter: setTelefax
+            type: string
+        programnamn:
+            expose: true
+            access_type: public_method
+            serialized_name: programnamn
+            accessor:
+                getter: getProgramnamn
+                setter: setProgramnamn
+            type: string
+        programlicens:
+            expose: true
+            access_type: public_method
+            serialized_name: programlicens
+            accessor:
+                getter: getProgramlicens
+                setter: setProgramlicens
+            type: string
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string

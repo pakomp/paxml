@@ -1,0 +1,20 @@
+PAXml\UtmatningTYPEType:
+    properties:
+        belopp:
+            expose: true
+            access_type: public_method
+            serialized_name: belopp
+            accessor:
+                getter: getBelopp
+                setter: setBelopp
+            xml_attribute: true
+            type: float
+        forbehall:
+            expose: true
+            access_type: public_method
+            serialized_name: forbehall
+            accessor:
+                getter: getForbehall
+                setter: setForbehall
+            xml_attribute: true
+            type: float

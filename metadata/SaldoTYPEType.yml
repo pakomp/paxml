@@ -1,0 +1,172 @@
+PAXml\SaldoTYPEType:
+    properties:
+        anstid:
+            expose: true
+            access_type: public_method
+            serialized_name: anstid
+            accessor:
+                getter: getAnstid
+                setter: setAnstid
+            xml_attribute: true
+            type: string
+        persnr:
+            expose: true
+            access_type: public_method
+            serialized_name: persnr
+            accessor:
+                getter: getPersnr
+                setter: setPersnr
+            xml_attribute: true
+            type: string
+        datum:
+            expose: true
+            access_type: public_method
+            serialized_name: datum
+            accessor:
+                getter: getDatum
+                setter: setDatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        ackbruttolon:
+            expose: true
+            access_type: public_method
+            serialized_name: ackbruttolon
+            accessor:
+                getter: getAckbruttolon
+                setter: setAckbruttolon
+            type: float
+        ackprelskatt:
+            expose: true
+            access_type: public_method
+            serialized_name: ackprelskatt
+            accessor:
+                getter: getAckprelskatt
+                setter: setAckprelskatt
+            type: float
+        acknettolon:
+            expose: true
+            access_type: public_method
+            serialized_name: acknettolon
+            accessor:
+                getter: getAcknettolon
+                setter: setAcknettolon
+            type: float
+        flexsaldo:
+            expose: true
+            access_type: public_method
+            serialized_name: flexsaldo
+            accessor:
+                getter: getFlexsaldo
+                setter: setFlexsaldo
+            type: float
+        kompsaldo:
+            expose: true
+            access_type: public_method
+            serialized_name: kompsaldo
+            accessor:
+                getter: getKompsaldo
+                setter: setKompsaldo
+            type: float
+        tidbanktim:
+            expose: true
+            access_type: public_method
+            serialized_name: tidbanktim
+            accessor:
+                getter: getTidbanktim
+                setter: setTidbanktim
+            type: float
+        tidbankbel:
+            expose: true
+            access_type: public_method
+            serialized_name: tidbankbel
+            accessor:
+                getter: getTidbankbel
+                setter: setTidbankbel
+            type: float
+        sembettot:
+            expose: true
+            access_type: public_method
+            serialized_name: sembettot
+            accessor:
+                getter: getSembettot
+                setter: setSembettot
+            type: float
+        sembetutb:
+            expose: true
+            access_type: public_method
+            serialized_name: sembetutb
+            accessor:
+                getter: getSembetutb
+                setter: setSembetutb
+            type: float
+        semobetot:
+            expose: true
+            access_type: public_method
+            serialized_name: semobetot
+            accessor:
+                getter: getSemobetot
+                setter: setSemobetot
+            type: float
+        semobeutb:
+            expose: true
+            access_type: public_method
+            serialized_name: semobeutb
+            accessor:
+                getter: getSemobeutb
+                setter: setSemobeutb
+            type: float
+        semfortot:
+            expose: true
+            access_type: public_method
+            serialized_name: semfortot
+            accessor:
+                getter: getSemfortot
+                setter: setSemfortot
+            type: float
+        semforutb:
+            expose: true
+            access_type: public_method
+            serialized_name: semforutb
+            accessor:
+                getter: getSemforutb
+                setter: setSemforutb
+            type: float
+        semspatot:
+            expose: true
+            access_type: public_method
+            serialized_name: semspatot
+            accessor:
+                getter: getSemspatot
+                setter: setSemspatot
+            type: float
+        semspautb:
+            expose: true
+            access_type: public_method
+            serialized_name: semspautb
+            accessor:
+                getter: getSemspautb
+                setter: setSemspautb
+            type: float
+        semlontot:
+            expose: true
+            access_type: public_method
+            serialized_name: semlontot
+            accessor:
+                getter: getSemlontot
+                setter: setSemlontot
+            type: float
+        semlonutb:
+            expose: true
+            access_type: public_method
+            serialized_name: semlonutb
+            accessor:
+                getter: getSemlonutb
+                setter: setSemlonutb
+            type: float
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            type: string

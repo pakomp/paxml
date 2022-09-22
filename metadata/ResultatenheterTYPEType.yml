@@ -1,0 +1,13 @@
+PAXml\ResultatenheterTYPEType:
+    properties:
+        resultatenhet:
+            expose: true
+            access_type: public_method
+            serialized_name: resultatenhet
+            accessor:
+                getter: getResultatenhet
+                setter: setResultatenhet
+            xml_list:
+                inline: true
+                entry_name: resultatenhet
+            type: array<PAXml\ResultatenhetTYPEType>

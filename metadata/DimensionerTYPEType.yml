@@ -1,0 +1,13 @@
+PAXml\DimensionerTYPEType:
+    properties:
+        dimension:
+            expose: true
+            access_type: public_method
+            serialized_name: dimension
+            accessor:
+                getter: getDimension
+                setter: setDimension
+            xml_list:
+                inline: true
+                entry_name: dimension
+            type: array<PAXml\DimensionTYPEType>

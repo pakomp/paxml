@@ -1,0 +1,18 @@
+# config.yml
+# Linux Users: PHP Namespaces use back slash \ rather than a forward slash /
+# So for destinations_php, the namespace would be TestNs\MyApp
+
+xsd2php:
+  namespaces:
+    '': 'PAXml'
+  destinations_php: 
+    'PAXml': lib/classes/xsd/PAXml/src/
+  destinations_jms:
+    'PAXml': lib/classes/xsd/PAXml/metadata/
+  aliases: # optional
+    '':
+      MyCustomXSDType:  'MyCustomMappedPHPType'
+  naming_strategy: short # optional and default
+  path_generator: psr4 # optional and default
+#configs_jms:  #optional
+#  xml_cdata: false # Disables CDATA
